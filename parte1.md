@@ -11,22 +11,21 @@ Na programação, a estrutura de um projeto é a organização dos arquivos e pa
 
 meu_projeto/
 │
-├── configs/
+│── configs/
 │   
 │
-├── database/
+│── database/
 │   
 │
-├── forms/
+│── forms/
 │   
 │
-├── pages/
-├────── template/
+│── pages/
+│────── template/
 │	
 │   
 │ 
-└── index.php
----
+│── index.php
 ## Criando o projeto
 
 Abra a pasta ``C:\xampp\htdocs`` e crie uma pasta chamada ``meu_projeto``. Dentro dela, crie as pastas ``configs``, ``database``, ``forms``, ``pages`` e dentro de ``pages`` crie a pasta ``template``.
