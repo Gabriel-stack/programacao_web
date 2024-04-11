@@ -5,28 +5,13 @@
 - Constantes
 - Template de página
 - Criação de uma página de login
+
 ---
-## Estrutura de um projeto
+# Estrutura de um projeto
 Na programação, a estrutura de um projeto é a organização dos arquivos e pastas que compõem o projeto. Existem várias formas de se estruturar um projeto PHP, mas vamos seguir o padrão que eu vou colocar abaixo:
 
-meu_projeto/
-
-│-- configs/
-│   
-│
-│-- database/
-│   
-│
-│-- forms/
-│   
-│
-│-- pages/
-│------ template/
-│	
-│   
-
-│-- index.php
-## Criando o projeto
+---
+# Criando o projeto
 
 Abra a pasta ``C:\xampp\htdocs`` e crie uma pasta chamada ``meu_projeto``. Dentro dela, crie as pastas ``configs``, ``database``, ``forms``, ``pages`` e dentro de ``pages`` crie a pasta ``template``.
 
@@ -35,8 +20,8 @@ deve ficar assim:
 ![image](imgs/arquitetura.png)
 
 Ignore os arquivos da imagem por enquanto.
-
-## Configs
+---
+# Configs
 
 A pasta ``configs`` vai conter arquivos de configuração do projeto. Por enquanto, vamos criar um arquivo chamado ``init.php``, ```config.php```,
 ```sessao.php``` e ```funcoes.php```.
@@ -164,3 +149,17 @@ require_once("pages/page_login.php");
 ```
 
 Siga a ordem acima acima colocando um abaixo do outro. Os arquivos que começararem com código php deve obrigatoriamente abrir ```<?php``` antes de começar a escrever o código e fechar ```?>``` caso precise escrever algo em HTML.
+
+
+## Criando arquivo index.php
+
+Quando acessamos a raiz do projeto pela URL (```localhost/meu_projeto/```), vai listar todas as pastas e arquivos do projeto. Isso acontece porque o servidor não sabe qual arquivo ele deve abrir. Para resolver isso, vamos criar um arquivo chamado ``index.php`` na raiz do projeto. Esse arquivo vai redirecionar o usuário para a página de login.
+O xampp por padrão abre o arquivo index.php, então se você não criar o arquivo index.php, ele vai listar as pastas e arquivos do projeto.
+
+No arquivo criado ``index.php`` coloque o seguinte código:
+```php
+<?php
+require_once("configs/init.php");
+
+header("Location: " . PAGE_LOGIN);	
+```
