@@ -1,4 +1,3 @@
-<!-- faça um sumário com base nos arquivos atual diretorio -->
 # Programação Web
 
 ## Tópicos
