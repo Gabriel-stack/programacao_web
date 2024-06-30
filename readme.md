@@ -8,6 +8,6 @@ Aqui você vai encontrar vários arquivos.
 
 ## Links
 - [Link do repositório do projeto atualizado toda aula](https://github.com/Gabriel-stack/projetoweb2024)
-- [Apostila Conceitual](apostila_conceitual.md)
+- [Apostila Conceitual](apostila-programacao-web-php/readme.md)
 - [Projeto em sala - parte 1](parte1.md)
 - [Projeto em sala - parte 2](parte2.md)
