@@ -20,16 +20,16 @@
 
 9 - [Laços de repetição](9%20-%20Laços%20de%20repetição.md)
 
-9 - [Funções](10%20-%20Funções.md)
+10 - [Funções](10%20-%20Funções.md)
 
-10 - [Formulários](11%20-%20Formulários.md)
+11 - [Formulários](11%20-%20Formulários.md)
 
-11 - [Funções comuns de uso](12%20%20-%20Funções%20comuns%20de%20uso.md)
+12 - [Funções comuns de uso](12%20%20-%20Funções%20comuns%20de%20uso.md)
 
-12 - [Sessões](13%20-%20Sessões.md)
+13 - [Sessões](13%20-%20Sessões.md)
 
-13 - [Sistema de arquivos](14%20-%20Sistema%20de%20arquivos.md)
+14 - [Sistema de arquivos](14%20-%20Sistema%20de%20arquivos.md)
 
-14 - [PHP + Banco de dados](15%20-%20PHP%20+%20Banco%20de%20Dados.md)
+15 - [PHP + Banco de dados](15%20-%20PHP%20+%20Banco%20de%20Dados.md)
 
-15 - [Arquitetura de um projeto](16%20-%20Arquitetura%20de%20projeto.md)
+16 - [Arquitetura de um projeto](16%20-%20Arquitetura%20de%20projeto.md)
